@@ -1,0 +1,178 @@
+/* ibm plexsans font */
+@import url('https://fonts.cdnfonts.com/css/ibm-plex-sans');
+
+/* abhaye font */
+@import url('https://fonts.cdnfonts.com/css/abhaya-libre-2');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Abhaya Libre', sans-serif; */
+    /* font-family: 'IBM Plex Sans', sans-serif; */
+}
+
+
+img, div, p, h1, h2, h3,h4, h5, h6, section, nav, body{
+    width: 100%;
+}
+
+p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    color: #414141ee;
+}
+
+h2{
+    font-size: 44px;
+    font-family: 'Abhaya Libre', sans-serif;
+    font-weight: 800;
+}
+
+h3{
+    font-size: 40px;
+    font-family: 'Abhaya Libre', sans-serif;
+    font-weight: 800;
+}
+
+section{
+    padding: 5rem 0;
+}
+
+section.heroBackground{
+    background: url(/assets/Squiggles.svg) no-repeat;
+    background-position: top;
+    opacity: 1;
+    object-fit: contain;
+    position: relative;
+    top: 0;
+    padding-bottom: 4rem;
+}
+
+.navbar{
+    margin: 1rem 0;
+    z-index: 999;
+}
+
+.navbar-brand{
+    font-weight: 800;
+    font-size: 22px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.navbar-brand img{
+    margin-top: -5px;
+    width: 30px;
+}
+
+.nav-link{
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.heroImage{
+    width: 240px;
+}
+
+.heroImage img{
+    border-radius: 50%;
+    width: 100%;
+}
+
+section .heroContainer{
+    padding: 8rem 3rem 5rem;
+}
+
+.heroContainer h1{
+    font-size: 72px;
+    font-family: 'Abhaya Libre', sans-serif;
+    font-weight: 800;                        
+}
+
+.heroContainer span{
+    color: #EA580C;
+}
+
+.heroContainer button{
+    padding: 13px 25px;
+    border: none;
+    border-radius: 25px;
+    background-color: #EA580C;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+}
+
+.grayBtn{
+    margin-top: 2rem;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 25px;
+    background-color: #DDD5D2;
+    font-weight: 700;
+}
+
+.socials h1{
+    font-family: 'Abhaya Libre', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.socials i{
+    color: #414141ee;
+    font-size: 38px;
+    padding: 0 4rem;
+}
+
+.chat{
+    background-image: url(./assets/circle-003.svg);
+    background-color: #1F1F23;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    
+}
+
+.lightBtn{
+    margin-top: 2rem;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 25px;
+    background-color: #404040;
+    font-weight: 700;
+    color: white;
+}
+
+
+
+
+@media only screen
+and (min-width: 320px)
+and (max-width: 480px) {
+    .navbar button{
+        border: none;
+    }
+
+    .heroContainer h1{
+        font-size: 42px;
+    }
+
+    section{
+        padding: 3rem 0;
+    }
+
+    section.heroBackground{
+        padding-bottom: 2rem;
+    }
+
+    h2{
+        font-size: 32px;
+    }
+
+    .socials h1{
+        font-size: 34px;
+    }
+}
