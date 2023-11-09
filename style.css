@@ -126,6 +126,10 @@ section .heroContainer{
     padding: 0 4rem;
 }
 
+.socials i:hover{
+    color: #EA580C;
+}
+
 .chat{
     background-image: url(./assets/circle-003.svg);
     background-color: #1F1F23;
